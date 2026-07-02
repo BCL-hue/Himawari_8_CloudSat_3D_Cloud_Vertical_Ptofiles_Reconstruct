@@ -2435,7 +2435,7 @@ print(f"\n[生成可视化]")
 print(f"  剖面长度: {SECTION_LENGTH}")
 print(f"  剖面数量: {num_sections}")
 
-for i in range(num_sections):
+for i in range(0,num_sections,100):
     start_idx = i * SECTION_LENGTH
     n_samples = min(SECTION_LENGTH, total_samples - start_idx)
     section_name = f"Samples {start_idx}-{start_idx + n_samples - 1}"

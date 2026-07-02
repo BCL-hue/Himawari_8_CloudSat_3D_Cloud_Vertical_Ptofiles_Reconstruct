@@ -1,0 +1,2 @@
+﻿Trial,Global_RMSE_dBZ,Global_Bias_dBZ,Correlation_Filtered,RMSE_dBZ_Filtered,GradRMSE_dBZ_Filtered,PeakError_km_Filtered,Correlation_Unfiltered,RMSE_dBZ_Unfiltered,GradRMSE_dBZ_Unfiltered
+MLP,7.409,-0.951,"(0.329 ± 0.547), 0.900","(13.089 ± 6.837), 12.040","(3.581 ± 1.706), 2.910","(-0.277 ± 1.995), -0.114","(0.600 ± 0.404), 0.940","(5.924 ± 4.449), 0.325","(2.829 ± 1.437), 0.076"

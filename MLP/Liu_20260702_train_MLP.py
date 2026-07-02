@@ -8,7 +8,7 @@ MLP模型训练脚本 - AHI + 几何信息 + BT扩展指标 + ERA5廓线 预测C
 - BT扩展指标 12维 (VCI + 11个BT相关指数)
 - ERA5廓线 54维 (r, t 各27层)
 
-损失函数: L1
+损失函数: Huber (delta=0.1)
 """
 
 import os
@@ -1009,9 +1009,9 @@ scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(
 print("\n" + "-" * 40)
 print("损失函数配置")
 print("-" * 40)
-print("  使用: L1损失 (nn.L1Loss)")
+print("  使用: Huber损失 (nn.HuberLoss, delta=0.1)")
 
-criterion = nn.L1Loss()
+criterion = nn.HuberLoss(delta=0.1)
 
 # ============================================
 # 初始化训练状态
