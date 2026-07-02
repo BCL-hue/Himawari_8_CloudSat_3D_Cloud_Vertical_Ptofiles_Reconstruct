@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 模型 checkpoint
+checkpoints/
+*.pt
+
+# 训练产物
+*.png
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
