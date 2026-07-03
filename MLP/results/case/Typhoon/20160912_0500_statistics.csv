@@ -1,0 +1,2 @@
+grid_points,valid_echo_points,max_reflectivity_mean,max_reflectivity_p95,cth_mean_km,cth_p95_km,land_fraction,lon_min,lon_max,lat_min,lat_max
+1681,110797,11.515625953674316,15.057579040527344,7.030151844024658,8.985713958740234,0.0,128.5,130.5,17.0,19.0
